@@ -29,7 +29,8 @@ class InvestorOffer(Loan):
 			return False
 	def calculate_total_repayments(self):
 		return (int(self.monthly_interest_rate * self.period)+ self.fee+self.Amount)
-
+investor_balance = 1000000
+investor_offer_annual_interest_rate=15
 #Apply use case:
 def Lenmo_Loan_System():
 	"""A Lenmo borrower would like to borrower some of money on paying them back on number of months period. 
@@ -38,7 +39,7 @@ def Lenmo_Loan_System():
 	print("*** Welcome To Lenmo Loan System ***")
 	loan_offer = InvestorOffer(Amount=(float(input('Please Enter Amount of Dollars You Need To Borrow:'))) ,
 				 period=(float(input('How many monthes You will repay it Back?')))
-				,balance=1000000, annual_interest_rate=15,fee=Lenmo_fee)
+				,balance=investor_balance, annual_interest_rate=investor_offer_annual_interest_rate,fee=Lenmo_fee)
 	print(loan_offer.status)
 	#check investor balance if it can cover loan and fees
 	if loan_offer.has_sufficient_balance():
