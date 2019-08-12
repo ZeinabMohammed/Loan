@@ -8,7 +8,7 @@ loan borrow with fixed monthly interest rate and fees repay in determind Time
 - Clone this repo to your local machine using `https://github.com/zeinabmohammed/Loan.git`
 
 ### Usage
-- After download To local Machine move to Loan directory then open it on terminal(Mac/Linux)/ Cmd(windows)
+- After download To local Machine move to Loan directory then open it on terminal(Mac/Linux) or Cmd(windows)
   * Windows
     in cmd 
     - for first solution Type : ```loan_1.py``` 
