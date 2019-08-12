@@ -13,10 +13,9 @@ loan borrow with fixed monthly interest rate and fees repay in determind Time
     in cmd 
     - for first solution Type : ```loan_1.py``` 
     - for Seconed solution Type : ```loan_2.py``` 
-  * Linux/Mac
-  in terminal 
-   - For First Solution Type : ```python3 loan_1.py```
-   - For Seconed Solution Type: ```python3 loan_2.py```
+  * Linux/Mac in terminal 
+    - For First Solution Type : ```python3 loan_1.py```
+    - For Seconed Solution Type: ```python3 loan_2.py```
   
 ### Note
 This script hard coded for specefic use case if you want to use in another cases you should change hard coded values
